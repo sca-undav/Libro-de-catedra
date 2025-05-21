@@ -1,3 +1,33 @@
+# Archivos de sistema ocultos o comunes a varias plataformas
 *.ini
-*.raw
+.DS_Store
+Thumbs.db
+
+# Archivos temporales, intermedios, de error o de backup típicos
+*.res
+*.dat
+*.tmp
+*.temp
+*.autosave
+*.save
 *.log
+*.out
+*.err
+
+# Archivos de LTspice
+*.raw
+*.net
+*.plt
+
+# Archivos de Scilab
+*.bin
+*.sav
+*.dia.ref
+*.xml.ref
+*.xcos.xml
+*.sci~
+*.sce~
+*~
+*.swp
+*.bak
+
